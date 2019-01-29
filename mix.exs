@@ -26,7 +26,7 @@ defmodule Commanded.Registration.SwarmRegistry.Mixfile do
 
   defp deps do
     [
-      {:commanded, ">= 0.16.0", runtime: Mix.env() == :test},
+      {:commanded,  git: "https://github.com/ThisisGurwinder/commanded.git", runtime: Mix.env() == :test},
       {:swarm, "~> 3.3"},
 
       # build & test tools
